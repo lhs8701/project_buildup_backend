@@ -1,0 +1,4 @@
+hdrbProj/.idea
+hdrbProj/db.sqlite3
+hdrbProj/*.pyc
+hdrbProj/__pycache__
