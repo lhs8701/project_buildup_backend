@@ -1,9 +1,0 @@
-hdrbProj/.idea
-hdrbProj/db.sqlite3
-hdrbProj/*.pyc
-hdrbProj/__pycache__
-hdrbProj/*.log
-hdrbProj/*.pot
-hdrbProj/local_settings.py
-hdrbProj/db.sqlite3-journal
-hdrbProj/media
