@@ -1,10 +1,13 @@
+
 from django.contrib import admin
-from django.urls import path
-
+from django.urls import path, include
+from rest_framework import urls
 from . import views
-
-app_name = 'account'
+from rest_framework.urlpatterns import format_suffix_patterns
 
 urlpatterns = [
-    # path('signup/', views.signup, name='signup'),
+    path('signup/', views.UserCreate.as_view()),
+    path('api-auth', include('rest_framework.urls')),
 ]
+
+urlpatterns = format_suffix_patterns(urlpatterns)
